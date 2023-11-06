@@ -1,11 +1,15 @@
+import Brand from "../Components/Brand";
+import Banner from "../Components/Shared/Banner";
 import NavBar from "../Components/Shared/NavBar";
+
 
 
 const Home = () => {
     return (
         <div>
 
-            <h2>home</h2>
+            <Brand></Brand>
+
         </div>
     );
 };
