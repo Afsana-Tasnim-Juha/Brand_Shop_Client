@@ -1,10 +1,35 @@
 import { useLoaderData } from "react-router-dom";
+import Swal from "sweetalert2";
 
 
 const ProductDetails = () => {
 
     const details = useLoaderData();
     //const { name, brandName, type, price, shortDescription, photo, rating } = details;
+
+
+    //send data to the server
+
+    const addToCart = () => {
+        fetch('http://localhost:5000/card', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(details),
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                // Show success toast
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Product added to cart!',
+                    showConfirmButton: false,
+                    timer: 1500,
+                });
+            });
+    };
 
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl w-1/2 ml-80">
@@ -17,7 +42,7 @@ const ProductDetails = () => {
 
 
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Add to Cart</button>
+                    <button className="btn btn-primary" onClick={addToCart}>Add to Cart</button>
                 </div>
             </div>
         </div>

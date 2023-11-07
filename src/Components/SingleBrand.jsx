@@ -2,7 +2,7 @@
 
 const SingleBrand = ({ singleBrand }) => {
 
-    const { id, brand, image } = singleBrand
+    const { brand, image } = singleBrand;
     return (
         <div >
             <div className="card  mt-10 bg-base-100 shadow-xl">
