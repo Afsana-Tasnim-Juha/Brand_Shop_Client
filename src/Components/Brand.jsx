@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SingleBrand from "./SingleBrand";
+import { Link } from "react-router-dom";
 
 
 const Brand = () => {
@@ -17,14 +18,14 @@ const Brand = () => {
             <div>
                 <h1 className="text-3xl text-center mt-20">Brands</h1>
             </div>
-            <div className="grid md:grid-cols-2 gap-4">
+            <Link to="/brandShowcase" className="grid md:grid-cols-2 gap-4">
                 {
                     brand.map(singleBrand => <SingleBrand
                         key={singleBrand.id}
                         singleBrand={singleBrand}
                     ></SingleBrand>)
                 }
-            </div>
+            </Link>
         </div>
     );
 };

@@ -11,6 +11,7 @@ import Home from './Pages/Home';
 import AddProduct from './Pages/AddProduct';
 import BrandShowcase from './Pages/BrandShowcase';
 import BrandShowcaseCard from './Pages/BrandShowcaseCard';
+import ProductDetails from './Pages/ProductDetails';
 
 
 const router = createBrowserRouter([
@@ -37,6 +38,12 @@ const router = createBrowserRouter([
       {
         path: "/brandShowcaseCard",
         element: <BrandShowcaseCard></BrandShowcaseCard>,
+
+      },
+      {
+        path: "/productDetails/:id",
+        element: <ProductDetails></ProductDetails>,
+        loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`),
 
       },
     ],
