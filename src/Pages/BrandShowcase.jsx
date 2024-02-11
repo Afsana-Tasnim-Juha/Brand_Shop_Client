@@ -1,13 +1,13 @@
 
-import { useLoaderData } from 'react-router-dom';
+
 import aa1 from '../assets/aa1.jpg';
 import aa2 from '../assets/aa2.jpg';
 import aa3 from '../assets/aa3.jpg';
-import Card from '../Components/Card';
+
 
 
 const BrandShowcase = () => {
-    const cards = useLoaderData();
+
 
 
     return (
@@ -42,10 +42,7 @@ const BrandShowcase = () => {
             <div className='grid md:grid-cols-2 gap-4 mt-20 ' >
 
 
-                {
-                    cards.map(card => <Card key={card._id}
-                        card={card}></Card>)
-                }
+
             </div>
 
         </div>

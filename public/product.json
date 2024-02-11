@@ -1,0 +1,172 @@
+[
+    {
+        "brand_id": 1,
+        "name": "iPad",
+        "brand_name": "Apple",
+        "type": "Tablet",
+        "price": "$499.99",
+        "rating": "4.5 out of 5",
+        "image": "https://i.ibb.co/mJrtJMW/julian-o-hayon-Bs-zng-H79-Ds-unsplash.jpg",
+        "products": []
+    },
+    {
+        "brand_id": 2,
+        "name": "Galaxy Tab",
+        "brand_name": "Samsung",
+        "type": "Tablet",
+        "price": "$449.99",
+        "rating": "4.3 out of 5",
+        "image": "https://i.ibb.co/DtwBbrq/daniel-lezuch-a-Tasqq-Tu-VA-unsplash.jpg",
+        "products": [
+            {
+                "product_id": 1,
+                "product_name": "Galaxy S21",
+                "product_type": "Smartphone",
+                "product_price": "$799.99",
+                "product_rating": "4.7 out of 5"
+            },
+            {
+                "product_id": 2,
+                "product_name": "Samsung TV QLED",
+                "product_type": "Smart TV",
+                "product_price": "$1499.99",
+                "product_rating": "4.8 out of 5"
+            },
+            {
+                "product_id": 3,
+                "product_name": "Samsung Galaxy Watch",
+                "product_type": "Smartwatch",
+                "product_price": "$249.99",
+                "product_rating": "4.5 out of 5"
+            }
+        ]
+    },
+    {
+        "brand_id": 3,
+        "name": "Xperia",
+        "brand_name": "Sony",
+        "type": "Smartphone",
+        "price": "$699.99",
+        "rating": "4.6 out of 5",
+        "image": "https://i.ibb.co/yNcrgqy/yearone-v-Bnpj1-Ln-e-I-unsplash.jpg",
+        "products": [
+            {
+                "product_id": 4,
+                "product_name": "Sony PlayStation 5",
+                "product_type": "Gaming Console",
+                "product_price": "$499.99",
+                "product_rating": "4.9 out of 5"
+            },
+            {
+                "product_id": 5,
+                "product_name": "Sony Noise Cancelling Headphones",
+                "product_type": "Headphones",
+                "product_price": "$349.99",
+                "product_rating": "4.7 out of 5"
+            },
+            {
+                "product_id": 6,
+                "product_name": "Sony Bravia 4K TV",
+                "product_type": "Smart TV",
+                "product_price": "$999.99",
+                "product_rating": "4.8 out of 5"
+            }
+        ]
+    },
+    {
+        "brand_id": 4,
+        "name": "Pixel",
+        "brand_name": "Google",
+        "type": "Smartphone",
+        "price": "$799.99",
+        "rating": "4.5 out of 5",
+        "image": "https://i.ibb.co/6XR31KK/triyansh-gill-Gm-BWx-Oqsf-Z4-unsplash.jpg",
+        "products": [
+            {
+                "product_id": 7,
+                "product_name": "Google Nest Hub",
+                "product_type": "Smart Display",
+                "product_price": "$129.99",
+                "product_rating": "4.4 out of 5"
+            },
+            {
+                "product_id": 8,
+                "product_name": "Google Pixelbook",
+                "product_type": "Laptop",
+                "product_price": "$999.99",
+                "product_rating": "4.6 out of 5"
+            },
+            {
+                "product_id": 9,
+                "product_name": "Google Nest Thermostat",
+                "product_type": "Smart Thermostat",
+                "product_price": "$249.99",
+                "product_rating": "4.3 out of 5"
+            }
+        ]
+    },
+    {
+        "brand_id": 5,
+        "name": "Core i9",
+        "brand_name": "Intel",
+        "type": "Processor",
+        "price": "$499.99",
+        "rating": "4.8 out of 5",
+        "image": "https://i.ibb.co/j4tNd67/thufeil-m-Cz-WTtm-N1-Zt-M-unsplash.jpg",
+        "products": [
+            {
+                "product_id": 10,
+                "product_name": "Intel SSD 1TB",
+                "product_type": "Solid State Drive",
+                "product_price": "$199.99",
+                "product_rating": "4.7 out of 5"
+            },
+            {
+                "product_id": 11,
+                "product_name": "Intel NUC Mini PC",
+                "product_type": "Mini PC",
+                "product_price": "$699.99",
+                "product_rating": "4.6 out of 5"
+            },
+            {
+                "product_id": 12,
+                "product_name": "Intel Core i7 Laptop",
+                "product_type": "Laptop",
+                "product_price": "$1299.99",
+                "product_rating": "4.9 out of 5"
+            }
+        ]
+    },
+    {
+        "brand_id": 6,
+        "name": "UltraHD",
+        "brand_name": "HD",
+        "type": "TV",
+        "price": "$799.99",
+        "rating": "4.7 out of 5",
+        "image": "https://i.ibb.co/CMVtkXC/mika-baumeister-7-KLp-KCG05v-I-unsplash.jpg",
+        "products": [
+            {
+                "product_id": 13,
+                "product_name": "HD Soundbar",
+                "product_type": "Soundbar",
+                "product_price": "$199.99",
+                "product_rating": "4.5 out of 5"
+            },
+            {
+                "product_id": 14,
+                "product_name": "HD Blu-ray Player",
+                "product_type": "Blu-ray Player",
+                "product_price": "$129.99",
+                "product_rating": "4.6 out of 5"
+            },
+            {
+                "product_id": 15,
+                "product_name": "HD 65-Inch Smart TV",
+                "product_type": "Smart TV",
+                "product_price": "$1499.99",
+                "product_rating": "4.8 out of 5"
+            }
+        ]
+    }
+]
